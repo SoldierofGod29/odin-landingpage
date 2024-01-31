@@ -2,6 +2,23 @@
 
 .header {
     background-color: #1f2937;
+    display: flex;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-info {
+    display: flex;
+}
+
+.header-image {
+    display: flex;
 }
 
 .header-links > h4 {
@@ -10,6 +27,7 @@
 }
 
 ul {
+    display: flex;
     list-style: none;
 }
 

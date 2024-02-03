@@ -33,6 +33,15 @@ body {
     flex-direction: column;
 }
 
+.header-info > button{
+    color: #f9faf8;
+    font-weight: 700;
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 80px;
+    height: 35px;
+}
+
 .header-image {
     display: flex;
 }
@@ -64,3 +73,4 @@ a {
     display: flex;
     flex: 1 0 5%;
 }
+

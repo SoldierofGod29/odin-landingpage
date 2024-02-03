@@ -157,6 +157,15 @@ a {
     text-align: center;
 }
 
+.content-comment {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 325px;
+    padding-right: 325px;
+}
+
 .footer {
     display: flex;
     flex: 1 0 5%;

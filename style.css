@@ -30,8 +30,8 @@ body {
     flex: 1;
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .header-info {
@@ -99,7 +99,17 @@ a {
 .content {
     display: flex;
     flex: 1 0 70%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer {
     display: flex;
     flex: 1 0 5%;

@@ -184,6 +184,22 @@ a {
     font-weight: bold;
 }
 
+.content-signup {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
 .footer {
     display: flex;
     flex: 1 0 10%;

@@ -33,6 +33,12 @@ body {
     flex-direction: column;
 }
 
+.content-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
 .header-info > button{
     color: #f9faf8;
     font-weight: 700;
@@ -42,8 +48,15 @@ body {
     height: 35px;
 }
 
-.header-image {
+.header-image > p {
     display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #85878b;
+    width: 400px;
+    height: 150px;
 }
 
 .header-logo {

@@ -57,6 +57,7 @@ body {
     color: #f9faf8;
     font-weight: 700;
     background-color: #3882f6;
+    border-style: solid;
     border-radius: 8px;
     width: 100px;
     height: 35px;
@@ -81,6 +82,7 @@ body {
     display: flex;
     color: #f9faf8;
     font-size: 24px;
+    font-weight: bold;
     align-items: center;
 }
 
@@ -205,7 +207,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 80px;
+    padding-left: 150px;
 }
 
 .signup-body > h4 {
@@ -226,7 +228,20 @@ a {
 
 .signup-button {
     display: flex;
-    padding-right: 80px;
+    padding-right: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button > button {
+    color: #f9faf8;
+    font-weight: 700;
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
 }
 
 .footer {
